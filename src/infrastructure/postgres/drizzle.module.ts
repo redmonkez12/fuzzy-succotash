@@ -1,5 +1,5 @@
 import { Global, Module } from '@nestjs/common';
-import { DrizzleProvider } from './drizzle.provider.js';
+import { DrizzleProvider } from '#app/infrastructure/postgres/drizzle.provider';
 
 @Global()
 @Module({

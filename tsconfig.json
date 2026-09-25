@@ -18,6 +18,9 @@
     "skipLibCheck": true,
     "strict": true,
     "strictPropertyInitialization": false,
+    "paths": {
+      "#app/*": ["./src/*.ts"]
+    },
     "types": ["vitest/globals", "node"]
   }
 }

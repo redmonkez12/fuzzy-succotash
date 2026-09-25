@@ -6,6 +6,9 @@
   "private": true,
   "license": "UNLICENSED",
   "type": "module",
+  "imports": {
+    "#app/*": "./dist/*.js"
+  },
   "scripts": {
     "build": "nest build",
     "deploy": "nest deploy",

@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { MongoModule } from './infrastructure/database/mongodb/mongo.module.js';
-import { DrizzleModule } from './infrastructure/postgres/drizzle.module.js';
+import { MongoModule } from '#app/infrastructure/database/mongodb/mongo.module';
+import { DrizzleModule } from '#app/infrastructure/postgres/drizzle.module';
 
 @Module({
   imports: [

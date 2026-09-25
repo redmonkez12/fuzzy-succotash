@@ -1,5 +1,5 @@
 import { Global, Module } from '@nestjs/common';
-import { MongoProvider } from './mongo.provider.js';
+import { MongoProvider } from '#app/infrastructure/database/mongodb/mongo.provider';
 import { ConfigModule } from '@nestjs/config';
 
 @Global()
